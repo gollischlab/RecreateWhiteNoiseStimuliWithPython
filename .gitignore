@@ -1,3 +1,7 @@
+# Specific files to this repository
+/examples/examples/
+/rng/rng.cpp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
