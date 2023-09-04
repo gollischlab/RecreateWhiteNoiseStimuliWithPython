@@ -12,6 +12,8 @@ A full installation of the package is done with
 pip install https://github.com/gollischlab/RecreateWhiteNoiseStimuliWithPython/archive/main.tar.gz
 ```
 
+Windows might require the [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools) to be installed (including *"Windows SDK"* and *"MSVC ... C++ x64/x86 build tools"*). For details, see [here](https://www.scivision.dev/python-windows-visual-c-14-required).
+
 ### Usage
 The Python package `retinawhitenoise` offers two modules `binarystimulus` and `gaussianstimulus`,
 each offering routines to `recreate`, `save` (to disk), and `load` stimulus sequences.
