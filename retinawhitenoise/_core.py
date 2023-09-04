@@ -141,7 +141,7 @@ def save(basepath, seed, *args, mode=1, **kwargs):
     basepath.parent.mkdir(exist_ok=True, parents=True)
 
     # Enable progress bar if not explicitly disabled
-    tqdm_args = dict(desc='Saving stimulus')
+    tqdm_args = dict(desc='Saving stimulus', leave=True)
     if len(args) < 4:  # 4th argument is progress
         arg_3 = kwargs.get('progress', True)
         kwargs['progress'] = tqdm_args if arg_3 is not False else arg_3
