@@ -1,4 +1,4 @@
-# Recreate white noise stimuli with Python
+# RecreateWhiteNoiseStimuliWithPython
 
 [![Build status](https://github.com/gollischlab/RecreateWhiteNoiseStimuliWithPython/actions/workflows/pypi.yml/badge.svg)](https://github.com/gollischlab/RecreateWhiteNoiseStimuliWithPython/deployments/PyPI)
 [![PyPI version](https://img.shields.io/pypi/v/retinawhitenoise.svg)](https://pypi.python.org/pypi/retinawhitenoise)
