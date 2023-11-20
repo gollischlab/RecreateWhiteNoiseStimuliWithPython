@@ -1,13 +1,21 @@
-# RecreateWhiteNoiseStimuliWithPython
+# Recreate white noise stimuli with Python
+
+[![Build status](https://github.com/gollischlab/RecreateWhiteNoiseStimuliWithPython/actions/workflows/pypi.yml/badge.svg)](https://github.com/gollischlab/RecreateWhiteNoiseStimuliWithPython/deployments/PyPI)
+[![PyPI version](https://img.shields.io/pypi/v/retinawhitenoise.svg)](https://pypi.python.org/pypi/retinawhitenoise)
+
 Code for regenerating the random-number-based contrast values applied in experiments with white-noise stimulation in the Gollisch Lab.
 Used for both temporal and spatiotemporal stimuli, and for both binary and Gaussian white noise.
 
 The random-number sequences are needed for analyzing the spike responses of recorded cells under white-noise stimulation.
 
 ### Installation
-The Python package contains Cython code (C++) to be compiled before use.
+A full installation of the package is done from command-line using `pip` with
+```
+pip install retinawhitenoise
+```
 
-A full installation of the package is done with
+#### Manual installation
+If the `pip` package is not available for a given operating system or Python version, the package and Cython code can be compiled manually instead.
 ```
 pip install https://github.com/gollischlab/RecreateWhiteNoiseStimuliWithPython/archive/main.tar.gz
 ```
