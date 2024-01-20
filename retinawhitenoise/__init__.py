@@ -1,7 +1,7 @@
 """
 Routines to recreate binary and Gaussian white noise stimuli
 """
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 __all__ = [
     'Rng',
     'binarystimulus',
