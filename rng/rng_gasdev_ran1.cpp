@@ -64,7 +64,7 @@ double ran1(Seed& seed)
  */
 unsigned char ranb(Seed& seed)
 {
-    return ran1(seed) > 0.5;
+    return ran1(seed) >= 0.5;
 }
 
 
